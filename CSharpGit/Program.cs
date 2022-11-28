@@ -5,6 +5,8 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
+
+            var newPerson = new Person("Alex", 23);
         }
     }
 }
