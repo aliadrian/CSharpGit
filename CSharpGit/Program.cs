@@ -4,11 +4,9 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
-
             var newPerson = new Person("Alex", 23);
-            var Car = new Cars("Tesla", "Model S");
-            var Car1 = new Cars("Mercedes", "A-class AMG");
+            var Car1 = new Car("Tesla", "Model S");
+            var Car2 = new Car("Mercedes", "A-class AMG");
         }
     }
 }

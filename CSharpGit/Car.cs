@@ -6,19 +6,14 @@ using System.Threading.Tasks;
 
 namespace CSharpGit
 {
-    internal class Cars
+    internal class Car
     {
-
         public string Make { get; set; }
         public string Model { get; set; }
-
-        public Cars(string make, string model)
+        public Car(string make, string model)
         {
             Make = make;
             Model = model;
         }
-
-
-
     }
 }
